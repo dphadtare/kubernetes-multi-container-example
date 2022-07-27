@@ -29,4 +29,10 @@ Postgres is used to store the generated fib sequence
 - ClusterIP
 - Ingress 
 - PersistenetVolumeClaim
-"# kubernetes-multi-container-example" 
+
+#### Production Deployment
+- Create Github repo
+- Create travis config file
+- Tie repo to Travis CI(Or Junkin, CircleCI)                                        
+- Create Google Cloud Project(Or AWS, Azur)
+- Add deployment scripts to the repo 
