@@ -31,8 +31,13 @@ Postgres is used to store the generated fib sequence
 - PersistenetVolumeClaim
 
 #### Production Deployment
+
 - Create Github repo
 - Create travis config file
 - Tie repo to Travis CI(Or Junkin, CircleCI)                                        
 - Create Google Cloud Project(Or AWS, Azur)
 - Add deployment scripts to the repo 
+
+#### Local Development with Skaffold
+
+Skaffold watch our local project directory for changes and push that change in kubernetes cluster. We have two options to do that.
